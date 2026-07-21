@@ -1,3 +1,21 @@
 .hero {
     text-align:center;
 }
+.pets {
+    text-align:center;
+}
+.fa{
+    padding:20px;
+    font-size:30px;
+    text-align:center;
+    width:30px;
+    border-radius:40%;
+    text-decoration:none;
+}
+.fa:hover{
+    opacity:0.6;
+}
+.fa-linkedin{
+    background-color:#007bb5;
+    color:white;
+}

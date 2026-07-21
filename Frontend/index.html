@@ -3,22 +3,61 @@
 
 <head>
     <title>SynaPets</title>
-    <meta charset="UTF-8" >
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico">
 
 </head>
 
 <body style="background-color:#F8E8C6">
-    
-    <div class="hero">
-        <img src="../content2.png" alt="SynaPets" width="260" height="260">
-        <h1 style="font-family:'Plus Jakarta Sans', sans-serif; font-size:1rem; text-align:center">Tobulas draugas. <br>
-            Apskaičiuotas tau.</h1>
-        <button>Prisijungti</button> 
-        <button>Registruotis</button>
-    </div>
+    <header>
+        <nav>
+            <button>Meniu</button>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="../content2.png" alt="SynaPets" width="260" height="260">
+            <h1 style="font-family:'Plus Jakarta Sans', sans-serif; font-size:1rem; text-align:center">Tobulas draugas.
+                <br>
+                Apskaičiuotas tau.
+            </h1>
+            <button>Prisijungti</button>
+            <button onclick="document.location='register.html'">Registruotis</button>
+        </div>
+        <div class="pets">
+            <h2>Kas yra SynaPets?</h2>
+            <p>Esame..</p>
+            <div class="card">
+                <article>
+                    <img src="../images.webp" alt="Dog" width="260" height="260">
+                    <h4>Mifas</h4>
+                    <p>Laukia Jūsų..</p>
+                </article>
+
+                <article>
+                    <img src="../images.webp" alt="Dog" width="260" height="260">
+                    <h4>Marlis</h4>
+                    <p>Draugiškas ..</p>
+                </article>
+
+                <article>
+                    <img src="../images.webp" alt="Dog" width="260" height="260">
+                    <h4>Makis</h4>
+                    <p>...</p>
+                </article>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <img src="../content2.png" alt="SynaPets" width="100" height="100">
+        <h2>Susisiekite</h2>
+        <a href="#" class="fa fa-linkedin"></a>
+    </footer>
 
 </body>
 
